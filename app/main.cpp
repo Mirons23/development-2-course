@@ -9,8 +9,6 @@
 using namespace std;
 
 int main() {
-  BitField x(90), x1(40), x2(0);
-  x2 = x&x1;
   int work = 1;
   while (work) {
     setlocale(LC_ALL, "Russian");
